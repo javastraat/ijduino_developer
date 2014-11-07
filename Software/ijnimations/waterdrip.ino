@@ -1,7 +1,7 @@
 /*
 	IJnimation waterdrip by Einstein
 */
-void waterdrip() {
+int waterdrip() {
   byte drip1[8] = {
     B00000000,
     B00000000,
@@ -127,45 +127,45 @@ void waterdrip() {
   bool skip;
   skip = render(drip1, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip2, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip3, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip4, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip5, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip6, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip7, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip8, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip9, 100);
   if (skip) {
-    return;
+    return true;
   }
   skip = render(drip10, 100);
   if (skip) {
-    return;
+    return true;
   }
   render(drip11, 100);
-
+return false;
 }
 

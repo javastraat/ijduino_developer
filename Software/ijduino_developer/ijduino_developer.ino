@@ -42,9 +42,9 @@ int debounceDelay = 50;      /* the debounce time; increase if the output flicke
 int animation = 0;           /* Set animationcount to 0 */
 int buttonState = LOW;       /* Set buttonstate to low */
 int brightness = 5;          /* Set brightneslevel to 5 (0 to 15 are valid) */
-const int animations = 21;   /* the number of animations we have */
+const int animations = 20;   /* the number of animations we have */
 
-void (*ijnimations[animations])() = {
+int (*ijnimations[animations])() = {
   ijhacklogo,
   ghost,
   invader,
@@ -67,7 +67,7 @@ void (*ijnimations[animations])() = {
   blockanim,
   pulse,
 
-  tewdoodles
+//  tewdoodles
 };
 
 void setup() {
