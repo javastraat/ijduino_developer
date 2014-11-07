@@ -61,9 +61,9 @@ int (*ijnimations[animations])() = {
   arrows,
   directions,
   packman,
-//  diagonals,
+  diagonals,
   waterdrip,
-  aliens,
+//  aliens,
   blockanim,
   pulse,
 
