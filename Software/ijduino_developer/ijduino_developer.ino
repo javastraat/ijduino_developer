@@ -61,13 +61,13 @@ int (*ijnimations[animations])() = {
   arrows,
   directions,
   packman,
-  diagonals,
+//  diagonals,
   waterdrip,
   aliens,
   blockanim,
   pulse,
 
-//  tewdoodles
+  tewdoodles
 };
 
 void setup() {
