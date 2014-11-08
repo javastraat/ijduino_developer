@@ -1,7 +1,6 @@
 /*
-	three animations
-*/
-int xmastree() {
+	xmastree by Einstein
+*/int xmastree() {
   byte animation1[8] = {
 B10011000,B00111100,B01111110,B11111111,B00111100,B01111110,B11111111,B00011000
 };
