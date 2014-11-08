@@ -3,14 +3,12 @@ Welcome to the developer software edition for the ijhack ijduino.
 There are two versions
 
 ijduino_developer :
-This version has templates from one to thirty animation frames,
-and is edited to work with all kind of different arduinos 
+This version has templates from one to thirty animation frames, and is edited to work with all kind of different arduinos 
 (mini,nano,baduino etc)
 
 ijnimations :
-This version is a copy of the ijnimation software from ijhack including 
-all animations we developed, and is edited to work with all kind of 
-different arduinos (mini,nano,baduino etc)
+This version is a copy of the ijnimation software from ijhack including all animations we developed, and is edited to work 
+with all kind of different arduinos (mini,nano,baduino etc)
 
 
 for more info about ijhack and ijduino please visit the links on the bottom.
