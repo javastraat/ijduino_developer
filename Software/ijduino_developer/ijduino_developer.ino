@@ -42,7 +42,7 @@ int debounceDelay = 50;      /* the debounce time; increase if the output flicke
 int animation = 0;           /* Set animationcount to 0 */
 int buttonState = LOW;       /* Set buttonstate to low */
 int brightness = 5;          /* Set brightneslevel to 5 (0 to 15 are valid) */
-const int animations = 27;   /* the number of animations we have */
+const int animations = 28;   /* the number of animations we have */
 
 int (*ijnimations[animations])() = {
 ijhacklogo,
@@ -71,8 +71,8 @@ twentytwo,
 twentythree,
 twentyfour,
 twentyfive,
-twentysix
-//twentyseven,
+twentysix,
+twentyseven
 //twentyeight,
 //twentynine,
 //thirty
