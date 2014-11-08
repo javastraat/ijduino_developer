@@ -41,12 +41,11 @@ int lastDebounceTime = 0;    /* the last time the output pin was toggled */
 int debounceDelay = 50;      /* the debounce time; increase if the output flickers */
 int animation = 0;           /* Set animationcount to 0 */
 int buttonState = LOW;       /* Set buttonstate to low */
-int brightness = 5;          /* Set brightneslevel to 5 (0 to 15 are valid) */
-const int animations = 21;   /* the number of animations we have */
+int brightness = 3;          /* Set brightneslevel to 5 (0 to 15 are valid) */
+const int animations = 22;   /* the number of animations we have */
 
 int (*ijnimations[animations])() = {
   ijhacklogo,
-  temperature,
   ghost,
   invader,
   heart,
@@ -56,7 +55,6 @@ int (*ijnimations[animations])() = {
   heartbeat,
   eq,
   invaderagain,
-
   pong,
   snake,
   arrows,
@@ -67,8 +65,10 @@ int (*ijnimations[animations])() = {
   //  aliens,
   blockanim,
   pulse,
-
-  tewdoodles
+  tewdoodles,
+  xmastree,
+  temperature
+  
 };
 
 void setup() {
