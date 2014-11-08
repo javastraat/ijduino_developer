@@ -67,7 +67,7 @@ int (*ijnimations[animations])() = {
   pulse,
   tewdoodles,
   xmastree,
-  temperature
+  battery
   
 };
 

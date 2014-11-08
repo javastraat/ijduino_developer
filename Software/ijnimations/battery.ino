@@ -1,7 +1,7 @@
 /*
-	temperature
+	battery animation by Einstein
 */
-int temperature() {
+int battery() {
   byte animation1[8] = {
     B00111100, B01000010, B01000010, B01000010, B01000010, B01000010, B01000010, B01111110
   };
